@@ -89,6 +89,9 @@ body{
 
  /* Responsive design */
  @media (max-width: 800px) {
+     .image{
+         width: 100%;
+     }
     .d-flex.justify-content-start.mb-3.or{
         flex-direction: column;
     }
@@ -99,7 +102,9 @@ body{
         order:1;
     }
     .locate{
-        width: 60%;
+        width: 70%;
+        left: 10%;
+
     }
     #htag{
         font-size: 40px;
@@ -108,8 +113,10 @@ body{
     .d-flex.flex-row.ml-2.or{
         flex-direction: column !important;
         margin:10px 0 !important;
+        width: 100%;
     }
     .card.ml-4.text-center.or{
         margin: 10px !important;
+        width: 100% !important;
     }
   }
